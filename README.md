@@ -13,5 +13,5 @@ It was a project where we had to make a textual RPG game in less than 2 months (
 It is a reproduction of Hetic where i'm a first year student.
 
 ## Creators
-Thanh-Long Pham - Developer : https://www.linkedin.com/in/thanh-long-pham-9942111b9/
-Louis Leveneur - Designer : https://www.linkedin.com/in/louis-leveneur-74410b1b9/
+ - Thanh-Long Pham - Developer : https://www.linkedin.com/in/thanh-long-pham-9942111b9/
+ - Louis Leveneur - Designer : https://www.linkedin.com/in/louis-leveneur-74410b1b9/
