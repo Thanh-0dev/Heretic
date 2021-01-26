@@ -12,6 +12,8 @@ game = Game()
 # Fenêtre d'affichage
 pygame.display.set_caption("Heretic RPG")
 screen = pygame.display.set_mode((1280, 720))
+icon = pygame.image.load("assets/logo/logo.png")
+pygame.display.set_icon(icon)
 
 # Définit les couleurs••
 white = (255, 255, 255)
