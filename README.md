@@ -5,7 +5,7 @@ A RPG game based on Hetic
  - Python
  - Pygame
 
-To play the game you will need to open the " game " folder as a workspace and then launch the " heretic.py " file.
+To play the game you will need to open the " Heretic " folder as a workspace and then launch the " heretic.py " file.
 
 ## Project
 Heretic is the first project i ever developped with the help of a friend of mine who made all the assets.
