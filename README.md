@@ -5,6 +5,6 @@ Heretic is the first project i ever developped with the help of a friend of mine
 It was a project where we had to make a textual RPG game in less than 2 months (actually 1 month of real work in parrallel of studying).
 It is a reproduction of Hetic where i'm a first year student.
 
-To play the game you will need Python and Pygame.
+To play the game you will need Python and Pygame, and use the " Heretic.py " file.
 
 Dev: Thanh-Long Pham / Designer: Louis Leveneur
