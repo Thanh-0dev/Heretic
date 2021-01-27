@@ -657,4 +657,5 @@ while running:
             choice = "home_menu"
             game.fight.reset()
             game.player.reset()
+            game.interaction.reset()
             game.inventory.reset_inventory()
