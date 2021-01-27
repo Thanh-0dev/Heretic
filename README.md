@@ -15,3 +15,11 @@ It is a reproduction of Hetic where i'm a first year student.
 ## Creators
  - Thanh-Long Pham - Developer : https://www.linkedin.com/in/thanh-long-pham-9942111b9/
  - Louis Leveneur - Designer : https://www.linkedin.com/in/louis-leveneur-74410b1b9/
+
+### Participation
+Thanks to the professionals who participated and agreed to appear on this game :
+ - Grégoire Charassin
+ - Joël Fauvelet de Charbonnière de Bourienne
+ - Frédéric Martinez
+ - Priscille Marty
+ - Loïc Janin
