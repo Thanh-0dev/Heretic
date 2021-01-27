@@ -5,6 +5,10 @@ https://youtu.be/WsK3OhZ-uAg
 ## How to setup the game :
 ### For MacOS :
 Open your terminal, write "chmod +x " then drag and drop the "Heretic.command" file in the terminal and press enter.
+
+### For Windows :
+Work in progress ...
+
 Now you're set, you can open the file normally and enjoy the game as much as you like !
 
 ## Project :
