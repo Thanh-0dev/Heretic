@@ -348,9 +348,10 @@ class Fight():
             self.next_button(screen)
             luck_enemy = randint(0, 100)
 
-            # L'ennemie à 10% de chance de se soigner 10% de ses points de vie
-            if luck_enemy < 10:
-                heal = self.enemy.max_health * 0.1
+            # L'ennemie à 10% de chance de se soigner 25% de ses points de vie lorsqu'il est en dessous de 50%
+            if luck_enemy < 10 and self.enemy.health <= self.enemy.max_health * 0.5:
+                heal = self.enemy.max_health * 0.25
+                self.enemy.health += heal
                 self.game.display.chat_logs(screen, "", -41)
                 self.game.display.chat_logs(screen, "", -41)
                 self.game.display.chat_logs(screen, "", -41)
