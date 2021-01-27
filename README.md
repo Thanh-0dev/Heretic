@@ -9,10 +9,12 @@ https://youtu.be/WsK3OhZ-uAg
  - Drag and drop the "Heretic.command" file in the terminal 
  - Press enter
 
-#### Now you're set, you can open the file normally and enjoy the game as much as you like !
+#### Now you're set, you can open the file "Heretic.command" normally and enjoy the game as much as you like !
 
 ### For Windows :
-Work in progress ...
+ - Open the file "Heretic.exe"
+
+If you encounter any bug, please let me know through LinkedIn, i'll be very grateful !
 
 ## Project :
 Heretic is the first project i ever developped with the help of a friend of mine who made all the assets.
