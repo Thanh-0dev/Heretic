@@ -391,7 +391,7 @@ class Fight():
                     self.combat_update(screen, "player")
                     self.game.display.chat_logs(screen, f"{self.enemy.name} attaque !", -41)
                     self.game.display.chat_logs(screen, f"Il vous a infligé {amount_received} points de dégats.", -41)
-                self.phase = -3
+            self.phase = -3
 
         # L'ennemie est mort
         if self.phase == 777 and self.dead_enemy and self.enemy.name not in ["M. Martinez", "M. Bourienne"]:
