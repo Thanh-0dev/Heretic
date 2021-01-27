@@ -16,8 +16,8 @@ It is a reproduction of Hetic where i'm a first year student.
  - Thanh-Long Pham - Developer : https://www.linkedin.com/in/thanh-long-pham-9942111b9/
  - Louis Leveneur - Designer : https://www.linkedin.com/in/louis-leveneur-74410b1b9/
 
-### Participation
-Thanks to the professionals who participated by agreeing to appear in this game :
+### Special thanks
+To the professionals who participated by agreeing to appear in this game :
  - Grégoire Charassin
  - Joël Fauvelet de Charbonnière de Bourienne
  - Frédéric Martinez
