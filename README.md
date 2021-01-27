@@ -1,5 +1,6 @@
 # Heretic
 A Hetic based RPG
+https://youtu.be/WsK3OhZ-uAg
 
 ## Requirements :
  - Python
