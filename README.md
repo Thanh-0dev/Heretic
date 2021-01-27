@@ -2,11 +2,10 @@
 A Hetic based RPG
 https://youtu.be/WsK3OhZ-uAg
 
-## Requirements :
- - Python
- - Pygame
-
-To play the game you will need to used Visual Studio Code and open the " Heretic " folder (CMD + O or CTRL + O) and then launch the " heretic.py " file.
+## How to setup the game :
+### For MacOS :
+Open your terminal, write "chmod +x " then drag and drop the "Heretic" file in the terminal and press enter.
+Now you're set, enjoy the game as much as you like !
 
 ## Project :
 Heretic is the first project i ever developped with the help of a friend of mine who made all the assets.
