@@ -308,8 +308,8 @@ class Display():
             self.chat_logs(screen, f"Tu es désormais un {self.game.player.role} en H1, ton but étant de devenir plus fort.")
             self.chat_logs(screen, "Pourquoi me-dis tu ? Afin de survivre dans ce lieu où terreur et compétition reigne")
             if self.game.player.mode == "Normal":
-                self.chat_logs(screen, "Tout ca depuis que M. Martinez ait prit le pouvoir.")
+                self.chat_logs(screen, "Tout ca depuis que M. Martinez a prit le pouvoir.")
             elif self.game.player.mode == "Hardcore":
-                self.chat_logs(screen, "Tout ca depuis que M. Bourienne ait prit le pouvoir.")
+                self.chat_logs(screen, "Tout ca depuis que M. Bourienne a prit le pouvoir.")
             self.chat_logs(screen, "Peut-être arriveras-tu à le détronner et à créer un nouvel ère.")
             self.game.is_playing = True
