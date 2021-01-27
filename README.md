@@ -1,5 +1,5 @@
 # Heretic
-A RPG game based on Hetic
+A Hetic based RPG
 
 ## Requirements :
  - Python
