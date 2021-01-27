@@ -10,6 +10,7 @@ class Fight():
         self.action = 0
         self.objects = 0
         self.used = 0
+        self.heal = False
         self.boost = {"Atk" : False , "Def" : False}
         self.in_fight = False
         self.dead_player = False
@@ -348,15 +349,17 @@ class Fight():
             self.next_button(screen)
             luck_enemy = randint(0, 100)
 
-            # L'ennemie à 10% de chance de se soigner 25% de ses points de vie lorsqu'il est en dessous de 50%
-            if luck_enemy < 10 and self.enemy.health <= self.enemy.max_health * 0.5:
-                heal = self.enemy.max_health * 0.25
+            # L'ennemie à 50% de chance de se soigner 25% de ses points de vie
+            if luck_enemy <= 50 and self.enemy.health <= self.enemy.max_health * 0.5 and not self.heal:
+                heal = int(self.enemy.max_health * 0.25)
                 self.enemy.health += heal
+                self.combat_update(screen, "enemy")
                 self.game.display.chat_logs(screen, "", -41)
                 self.game.display.chat_logs(screen, "", -41)
                 self.game.display.chat_logs(screen, "", -41)
                 self.game.display.chat_logs(screen, f"{self.enemy.name} sort un petit encas et commence à le déguster.", -41)
                 self.game.display.chat_logs(screen, f"{self.enemy.name} récupère {heal} points de vie.", -41)
+                self.heal = True
 
             else:
                 luck_enemy = randint(0, 100)
@@ -395,6 +398,7 @@ class Fight():
 
         # L'ennemie est mort
         if self.phase == 777 and self.dead_enemy and self.enemy.name not in ["M. Martinez", "M. Bourienne"]:
+            self.heal = False
             self.boost["Atk"] = False
             self.boost["Def"] = False
             self.game.player.attack_boost, self.game.player.defence_boost = (0, 0)
@@ -580,6 +584,7 @@ class Fight():
         self.action = 0
         self.objects = 0
         self.used = 0
+        self.heal = False
         self.boost = {"Atk" : False , "Def" : False}
         self.in_fight = False
         self.dead_player = False
