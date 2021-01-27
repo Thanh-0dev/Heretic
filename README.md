@@ -14,7 +14,7 @@ https://youtu.be/WsK3OhZ-uAg
 ### For Windows :
  - Open the file "Heretic.exe"
 
-If you encounter any bug, please let me know through LinkedIn, i'll be very grateful !
+#### If you encounter any bug, please let me know through LinkedIn, i'll be very grateful !
 
 ## Project :
 Heretic is the first project i ever developped with the help of a friend of mine who made all the assets.
