@@ -26,7 +26,7 @@ It is a reproduction of Hetic where i'm a first year student.
  - Louis Leveneur - Designer : https://www.linkedin.com/in/louis-leveneur-74410b1b9/
 
 ### Special thanks :
-To the professionals who participated by agreeing to appear in this game :
+To the professionals who agreed to appear in this game :
  - Grégoire Charassin
  - Joël Fauvelet de Charbonnière de Bourienne
  - Frédéric Martinez
